@@ -1,0 +1,85 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 34px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.list_carousel {
+  padding: 0;
+  width: auto;
+  position: relative;
+  margin: 0 0 0 -30px;
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+.list_carousel ul li {
+  padding: 0 0 0 30px;
+  margin: 0;
+  display: block;
+  float: left;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+/*Navigation*/
+.caroufredsel_prev,
+.caroufredsel_next {
+  position: absolute;
+  top: -62px;
+  cursor: pointer;
+  display: block;
+  height: 29px;
+  width: 19px;
+}
+.caroufredsel_prev span,
+.caroufredsel_next span {
+  display: none;
+}
+.caroufredsel_prev {
+  right: 33px;
+  background: url(../images/carousel_nav.png);
+}
+.caroufredsel_prev:hover {
+  background-position: left bottom;
+}
+.caroufredsel_next {
+  right: 0;
+  background: url(../images/carousel_nav.png) right top;
+}
+.caroufredsel_next:hover {
+  background-position: right bottom;
+}
+/*Pagination*/
+.caroufredsel_pagination {
+  text-align: center;
+}
+.caroufredsel_pagination a {
+  display: inline-block;
+  padding: 0 0.5em;
+}
