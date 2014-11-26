@@ -1,0 +1,323 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Home Page";
+}
+
+
+<div id="showcase-row">
+    <div class="moduletable ">
+        <div id="camera-slideshow" class="  camera_wrap pattern_1">
+            <div class="camera-item" data-src="images/slider/slide-1.jpg" data-thumb="" data-link=""
+                 data-target="_self">
+                <div class="camera_caption fadeIn">
+                    <h1 class="slide-title">
+                        OUR CLIENTS ARE AT THE
+                    </h1>
+
+                    <p>CENTER OF WHAT WE DO</p>
+
+                    <a class="btn btn-info readmore" href="#" target="_self"><span>more info</span></a>
+                </div>
+            </div>
+            <div class="camera-item" data-src="images/slider/slide-2.jpg" data-thumb="" data-link=""
+                 data-target="_self">
+                <div class="camera_caption fadeIn">
+                    <h1 class="slide-title">
+                        SERVING & PROTECTING
+                    </h1>
+
+                    <p>YOUR INTERESTS</p>
+
+                    <a class="btn btn-info readmore" href="#" target="_self"><span>more info</span></a>
+                </div>
+            </div>
+            <div class="camera-item" data-src="images/slider/slide-3.jpg" data-thumb="" data-link=""
+                 data-target="_self">
+                <div class="camera_caption fadeIn">
+                    <h1 class="slide-title">
+                        PROFESSIONAL POWERFUL
+                    </h1>
+
+                    <p>SECURITY PROTECTION</p>
+
+                    <a class="btn btn-info readmore" href="#" target="_self"><span>more info</span></a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+                        jQuery(document).ready(function () {
+                            jQuery('#camera-slideshow').camera({
+                                alignment: "topCenter", //topLeft, topCenter, topRight, centerLeft, center, centerRight, bottomLeft, bottomCenter, bottomRight
+                                autoAdvance: true,	//true, false
+                                mobileAutoAdvance: true, //true, false. Auto-advancing for mobile devices
+
+                                barDirection: "leftToRight",	//'leftToRight', 'rightToLeft', 'topToBottom', 'bottomToTop'
+                                barPosition: "bottom",	//'bottom', 'left', 'top', 'right'
+                                cols: 6,
+                                easing: "swing",	//for the complete list http://jqueryui.com/demos/effect/easing.html
+                                mobileEasing: "swing",	//leave empty if you want to display the same easing on mobile devices and on desktop etc.
+                                fx: "simpleFade",
+                                mobileFx: "simpleFade",		//leave empty if you want to display the same effect on mobile devices and on desktop etc.
+                                gridDifference: 250,	//to make the grid blocks slower than the slices, this value must be smaller than transPeriod
+                                height: "30.60606060606061%",	//here you can type pixels (for instance '300px'), a percentage (relative to the width of the slideshow, for instance '50%') or 'auto'
+                                // imagePath					: 'images/',	//the path to the image folder (it serves for the blank.gif, when you want to display videos)
+                                hover: true,	//true, false. Puase on state hover. Not available for mobile devices
+                                loader: "none",	//pie, bar, none (even if you choose "pie", old browsers like IE8- can't display it... they will display always a loading bar)
+                                loaderColor: "#eeeeee",
+                                loaderBgColor: "#222222",
+                                loaderOpacity: .8,	//0, .1, .2, .3, .4, .5, .6, .7, .8, .9, 1
+                                loaderPadding: 2,	//how many empty pixels you want to display between the loader and its background
+                                loaderStroke: 7,	//the thickness both of the pie loader and of the bar loader. Remember: for the pie, the loader thickness must be less than a half of the pie diameter
+                                minHeight: "100px",	//you can also leave it blank
+                                navigation: true,	//true or false, to display or not the navigation buttons
+                                navigationHover: true,	//if true the navigation button (prev, next and play/stop buttons) will be visible on hover state only, if false they will be 	visible always
+                                mobileNavHover: true,	//same as above, but only for mobile devices
+                                opacityOnGrid: false,	//true, false. Decide to apply a fade effect to blocks and slices: if your slideshow is fullscreen or simply big, I recommend to set it false to have a smoother effect
+                                overlayer: false,	//a layer on the images to prevent the users grab them simply by clicking the right button of their mouse (.camera_overlayer)
+                                pagination: false,
+                                playPause: false,	//true or false, to display or not the play/pause buttons
+                                pauseOnClick: false,	//true, false. It stops the slideshow when you click the sliders.
+                                pieDiameter: 38,
+                                piePosition: "rightTop",	//'rightTop', 'leftTop', 'leftBottom', 'rightBottom'
+                                portrait: false, //true, false. Select true if you don't want that your images are cropped
+                                rows: 4,
+                                slicedCols: 6,	//if 0 the same value of cols
+                                slicedRows: 4,	//if 0 the same value of rows
+                                // slideOn				: "",	//next, prev, random: decide if the transition effect will be applied to the current (prev) or the next slide
+                                thumbnails: false,
+                                time: 7000,	//milliseconds between the end of the sliding effect and the start of the nex one
+                                transPeriod: 1500	//lenght of the sliding effect in milliseconds
+                                // onEndTransition		: function() {  },	//this callback is invoked when the transition effect ends
+                                // onLoaded					: function() {  },	//this callback is invoked when the image on a slide has completely loaded
+                                // onStartLoading		: function() {  },	//this callback is invoked when the image on a slide start loading
+                                // onStartTransition	: function() {  }	//this callback is invoked when the transition effect starts
+                            });
+                        });
+        </script>
+    </div>
+</div>
+
+<div id="content-row">
+    <div class="row-container">
+        <div class="container">
+            <div class="content-inner row">
+
+                <div id="component" class="span12">
+
+
+                    <div id="content-top-row" class="row">
+                        <div id="content-top">
+                            <div class="moduletable top_blocks  span12">
+                                <div class="mod-newsflash-adv mod-newsflash-adv__top_blocks">
+                                    <div class="row">
+                                        <div class="span3 item item_num0 item__module  ">
+
+                                            <div class="item_content">
+
+                                                <h3 class="item_title item_title__top_blocks">
+                                                    <span class="item_title_part0">HOME</span> <span class="item_title_part1"></span> <span class="item_title_part2">SECURITY</span>
+                                                </h3>
+
+                                                <div class="item_introtext">
+                                                    <h4>
+                                                        Mes cuml dia sed inenias cet inger lot
+                                                        aliiqtes
+                                                    </h4>
+
+                                                    <p>
+                                                        Mes cuml dia sed in lacus ut eniascet ingerto aliiqt es site amet
+                                                        eismod ictor ut ligulate ameti dapibus ticdu nt mtsen lusto
+                                                        dolor ltissim comes cuml dia sed inertio.
+                                                    </p>
+                                                </div>
+
+                                                <a class="btn btn-info readmore"
+                                                   href="index.php/39-top-blocks/1-home-security"><span>more info</span></a>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="span3 item item_num1 item__module  ">
+
+                                            <div class="item_content">
+
+                                                <h3 class="item_title item_title__top_blocks">
+                                                    <span class="item_title_part0">BUSINESS</span> <span class="item_title_part1"></span> <span class="item_title_part2">SECURITY</span>
+                                                </h3>
+
+                                                <div class="item_introtext">
+                                                    <h4>
+                                                        Mes cuml dia sed inenias cet inger lot
+                                                        aliiqtes
+                                                    </h4>
+
+                                                    <p>
+                                                        Mes cuml dia sed in lacus ut eniascet ingerto aliiqt es site amet
+                                                        eismod ictor ut ligulate ameti dapibus ticdu nt mtsen lusto
+                                                        dolor ltissim comes cuml dia sed inertio.
+                                                    </p>
+                                                </div>
+
+                                                <a class="btn btn-info readmore"
+                                                   href="index.php/39-top-blocks/2-business-security"><span>more info</span></a>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="span3 item item_num2 item__module  ">
+
+                                            <div class="item_content">
+
+                                                <h3 class="item_title item_title__top_blocks">
+                                                    <span class="item_title_part0">SECURITY</span> <span class="item_title_part1"></span> <span class="item_title_part2">FOR</span>
+                                                    <span class="item_title_part3">KIDS</span>
+                                                </h3>
+
+                                                <div class="item_introtext">
+                                                    <h4>
+                                                        Mes cuml dia sed inenias cet inger lot
+                                                        aliiqtes
+                                                    </h4>
+
+                                                    <p>
+                                                        Mes cuml dia sed in lacus ut eniascet ingerto aliiqt es site amet
+                                                        eismod ictor ut ligulate ameti dapibus ticdu nt mtsen lusto
+                                                        dolor ltissim comes cuml dia sed inertio.
+                                                    </p>
+                                                </div>
+
+                                                <a class="btn btn-info readmore"
+                                                   href="index.php/39-top-blocks/3-security-for-kids"><span>more info</span></a>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="span3 item item_num3 item__module  lastItem">
+
+                                            <div class="item_content">
+
+                                                <h3 class="item_title item_title__top_blocks">
+                                                    <span class="item_title_part0">HARDWARE</span> <span class="item_title_part1"></span> <span class="item_title_part2">SYSTEM</span>
+                                                </h3>
+
+                                                <div class="item_introtext">
+                                                    <h4>
+                                                        Mes cuml dia sed inenias cet inger lot
+                                                        aliiqtes
+                                                    </h4>
+
+                                                    <p>
+                                                        Mes cuml dia sed in lacus ut eniascet ingerto aliiqt es site amet
+                                                        eismod ictor ut ligulate ameti dapibus ticdu nt mtsen lusto
+                                                        dolor ltissim comes cuml dia sed inertio.
+                                                    </p>
+                                                </div>
+
+                                                <a class="btn btn-info readmore"
+                                                   href="index.php/39-top-blocks/4-hardware-system"><span>more info</span></a>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="system-message-container">
+                        <div id="system-message">
+                        </div>
+                    </div>
+                    <div class="page-category page-category__">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="bottom-row">
+    <div class="row-container">
+        <div class="container">
+            <div id="bottom" class="row">
+                <div class="moduletable services  span12">
+                    <h3 class="moduleTitle ">
+                        <span class="item_title_part0">Featured</span>
+                        <span class="item_title_part1">Services</span>
+                    </h3>
+
+                    <div class="mod-newsflash-adv mod-newsflash-adv__services">
+                        <div class="row">
+                            <div class="span4 item item_num0 item__module  ">
+                                <strong class="dropcap">A</strong>
+
+                                <div class="item_content">
+
+                                    <h3 class="item_title item_title__services">
+                                        <span class="item_title_part0">Dolore</span>
+                                    </h3>
+
+                                    <div class="item_introtext">
+                                        <h4>Mes cuml dia sed inen scet inger lot alii.</h4>
+
+                                        <p>
+                                            Mes cuml dia sed in lacus ut eniascet ingerto aliiqt es site amet eismod
+                                            ictor ut ligulate ameti dapibus ticdu nt mtsen lusto dolor ltissim comes
+                                            cuml dia sed inertio lacusueni ascet dolingerto aliiqt sit amet.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="span4 item item_num1 item__module  ">
+                                <strong class="dropcap">B</strong>
+
+                                <div class="item_content">
+
+                                    <h3 class="item_title item_title__services">
+                                        <span class="item_title_part0">Dolore</span>
+                                    </h3>
+
+                                    <div class="item_introtext">
+                                        <h4>Mes cuml dia sed inen scet inger lot alii.</h4>
+
+                                        <p>
+                                            Mes cuml dia sed in lacus ut eniascet ingerto aliiqt es site amet eismod
+                                            ictor ut ligulate ameti dapibus ticdu nt mtsen lusto dolor ltissim comes
+                                            cuml dia sed inertio lacusueni ascet dolingerto aliiqt sit amet.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="span4 item item_num2 item__module  lastItem">
+                                <strong class="dropcap">C</strong>
+
+                                <div class="item_content">
+
+                                    <h3 class="item_title item_title__services">
+                                        <span class="item_title_part0">Dolore</span>
+                                    </h3>
+
+                                    <div class="item_introtext">
+                                        <h4>Mes cuml dia sed inen scet inger lot alii.</h4>
+
+                                        <p>
+                                            Mes cuml dia sed in lacus ut eniascet ingerto aliiqt es site amet eismod
+                                            ictor ut ligulate ameti dapibus ticdu nt mtsen lusto dolor ltissim comes
+                                            cuml dia sed inertio lacusueni ascet dolingerto aliiqt sit amet.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

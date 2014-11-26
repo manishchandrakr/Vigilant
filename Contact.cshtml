@@ -1,0 +1,212 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Contact";
+}
+
+
+
+<div class="page page-contact page-contact__">
+
+    
+
+
+    <!-- Address -->
+    <div class="row-fluid">
+
+
+        <div class="contact_details">
+
+
+            <div class="contact_details_item span4">
+
+                <h3> Address: </h3>
+                <i class="icons-marker fa fa-home"></i>
+
+                <div class="contact_address">
+                    138 Atlantis Ln<br>
+
+                    Kingsport<br>
+
+                    Illinois
+                    121164<br>
+
+                </div>
+            </div>
+
+            <div class="contact_details_item span4">
+                <h3> Phones: </h3>
+                <i class="icons-marker fa fa-phone"></i>
+
+                <div class="contact_details_telephone">
+                    +1 800 559 6580
+                </div>
+                <div class="clearfix"></div>
+
+                <i class="icons-marker fa fa-print"></i>
+
+                <div class="contact_details_fax">
+                    +1 504 889 9898
+                </div>
+                <div class="clearfix"></div>
+
+
+            </div>
+
+            <div class="contact_details_item span4">
+
+                <h3> E-mail: </h3>
+
+                <i class="icons-marker fa fa-envelope"></i>
+
+                <div class="contact_details_emailto">
+                    <script type="text/javascript">
+                    <!--
+                    var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+                    var path = 'hr' + 'ef' + '=';
+                    var addy54228 = 'm&#97;&#105;l' + '&#64;';
+                    addy54228 = addy54228 + 'd&#101;m&#111;l&#105;nk' + '&#46;' + '&#111;rg';
+                    document.write('<a ' + path + '\'' + prefix + ':' + addy54228 + '\'>');
+                    document.write(addy54228);
+                    document.write('<\/a>');
+                    //-->
+                    \
+                    n </script>
+                    <a href="mailto:mail@demolink.org">mail@demolink.org</a>
+                    <script type="text/javascript">
+                    <!--
+                    document.write('<span style=\'display: none;\'>');
+                    //-->
+                    </script><span style="display: none;">
+                        This email address is being protected from spambots. You need JavaScript enabled to view it.
+                        <script type="text/javascript">
+     <!--
+     document.write('</');
+     document.write('span>');
+     //-->
+                        </script>
+                    </span>
+                </div>
+                <div class="clearfix"></div>
+
+
+                <div class="contact_vcard">
+                    <i class="muted">
+                        Download information as: <a href="/joomla_47946/index.php/contacts?format=vcf">
+                            vCard
+                        </a>
+                    </i>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Form -->
+    <!-- Misc -->
+
+    <div class="contact_misc">
+        <h3> Miscellaneous information: </h3>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
+    </div>
+
+
+    <div class="contact_form">
+        <form id="contact-form" action="/joomla_47946/index.php/contacts" method="post" class="form-validate">
+            <fieldset>
+                <!-- <legend></legend> -->
+                <p>
+                    <i class="muted">Send an email. All fields with an * are required.</i>
+                </p>
+
+                <div class="clearfix"></div>
+
+                <div class="row-fluid">
+                    <div class="span4">
+                        <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasTooltip required" title=""
+                               data-original-title="
+                            <strong>Name</strong><br />Your name">Name<span class="star">&nbsp;*</span>
+                        </label>
+
+                        <div class="controls">
+                            <input type="text" name="jform[contact_name]" id="jform_contact_name" value=""
+                                   size="30" required="" aria-required="true">
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <label id="jform_contact_email-lbl" for="jform_contact_email" class="hasTooltip required" title=""
+                               data-original-title="<strong>Email</strong><br />Email for contact">Email<span class="star">&nbsp;*</span></label>
+
+                        <div class="controls">
+                            <input type="email" name="jform[contact_email]" class="validate-email"
+                                   id="jform_contact_email" value="" size="30" required=""
+                                   aria-required="true">
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <label id="jform_contact_emailmsg-lbl" for="jform_contact_emailmsg" class="hasTooltip required"
+                               title=""
+                               data-original-title="
+                            <strong>Subject</strong><br />Enter the subject of your message here .">Subject<span class="star">&nbsp;*</span>
+                        </label>
+
+                        <div class="controls">
+                            <input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg"
+                                   value="" size="60" required="" aria-required="true">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasTooltip required"
+                               title="" data-original-title="
+                            <strong>Message</strong><br />Enter your message here.">Message<span class="star">&nbsp;*</span>
+                        </label>
+
+                        <div class="controls">
+                            <textarea name="jform[contact_message]" id="jform_contact_message" cols="50"
+                                      rows="10" required="" aria-required="true"></textarea>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+
+                    <button class="btn validate btn-primary pull-right" type="submit">Send Email</button>
+
+                    <div class="contact_email-copy pull-right">
+                        <label id="jform_contact_email_copy-lbl" for="jform_contact_email_copy" class="hasTooltip" title=""
+                               data-original-title="
+                            <strong>Send copy to yourself</strong><br />Sends a copy of the message to the address you have supplied.">Send
+                            copy to yourself
+                        </label> <span class="checkbox-radio-wrap__inline">
+                            <input type="checkbox"
+                                   name="jform[contact_email_copy]"
+                                   id="jform_contact_email_copy"
+                                   value="1">
+                        </span>
+                    </div>
+
+
+                    <input type="hidden" name="option" value="com_contact">
+                    <input type="hidden" name="task" value="contact.submit">
+                    <input type="hidden" name="return" value="">
+                    <input type="hidden" name="id" value="1:website-owner">
+                    <input type="hidden" name="c0657725ff3e80a20273678653d68268" value="1">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
